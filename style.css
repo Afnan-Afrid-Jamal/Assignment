@@ -1,0 +1,131 @@
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    background-image: url("Assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 100px;
+    min-height: 100vh;         
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h2
+{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+#hero
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh;
+}
+
+#hero h2
+{
+    font-size: 65px;
+}
+
+.button_style
+{
+    background-color: #4E47FF;
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button_style:hover
+{
+    background-color: #0800ff;
+    border: 4px white dashed;
+    cursor: pointer;
+}
+
+#hero button
+{
+    margin-top: 35px;
+}
+
+#action
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#action_text h3
+{
+    font-size: 42px;
+}
+
+#action_text p
+{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    line-height: 30px;
+}
+
+#action_text button
+{
+    margin-top: 15px;
+}
+
+.button_style_for_action
+{
+    background-color: #4E47FF;
+    width: 185px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.button_style_for_action:hover
+{
+    background-color: #0800ff;
+    border: 4px white dashed;
+    cursor: pointer;
+}
+
+#action
+{
+    margin-top: 200px;
+    align-items: center;
+}
+
+#action img
+{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
