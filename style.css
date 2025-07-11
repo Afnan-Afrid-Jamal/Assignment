@@ -19,7 +19,10 @@ header
     padding: 30px 100px;
     min-height: 100vh;         
 }
-
+body
+{
+    background-color: #eff4ff;
+}
 nav
 {
     display: flex;
@@ -76,8 +79,8 @@ nav h2
 {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #action_text h3
@@ -128,4 +131,101 @@ nav h2
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+
+#productive_users_section
+{
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+    background-color: #4d47ff37;
+    padding: 50px 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 40px;
+}
+
+#productive_users_section h3
+{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#users_information
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    justify-content: space-around;
+    gap: 250px;
+}
+
+#users_information h2
+{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium';
+    color: #4E47FF;
+}
+
+#users_information p
+{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+#feedback_section
+{
+    margin-top: 250px;
+    text-align: center;
+}
+#feedback_section h2
+{
+    font-size: 42px;
+    font-weight: 700;
+}
+#all_cards
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 80px;
+    text-align: left;
+}
+#all_cards h4
+{
+    font-size: 20px;
+}
+#all_cards p
+{
+    font-size: 15px;
+    font-family: 'Calibri';
+    font-weight: 400;
+}
+#picture_and_info
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+#picture_and_info img
+{
+    border-radius: 50%;
+}
+#info
+{
+    margin-left: 20px;
+}
+#info p
+{
+    font-size: 15px;
+}
+#info h6
+{
+    font-size: 15px;
+}
+
+.card_style
+{
+    background-color: white;
+    border-radius: 14px;
+    padding: 50px;
 }
