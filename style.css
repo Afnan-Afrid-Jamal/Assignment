@@ -1,58 +1,51 @@
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-*
-{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-header
-{
+header {
     background-image: url("Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 100px;
-    min-height: 100vh;         
+    min-height: 100vh;
 }
-body
-{
+
+body {
     background-color: #eff4ff;
 }
-nav
-{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
 
-nav h2
-{
+nav h2 {
     font-size: 34px;
     font-weight: bolder;
     color: #4E47FF;
 }
 
-#hero
-{
-    display: flex;
-    flex-direction: column;
+#hero {
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 80vh;
+    margin-top: 225px;
 }
 
-#hero h2
-{
+#hero h2 {
     font-size: 65px;
 }
 
-.button_style
-{
+.button_style {
     background-color: #4E47FF;
     width: 132px;
     height: 48px;
@@ -63,46 +56,39 @@ nav h2
     font-weight: bold;
 }
 
-.button_style:hover
-{
+.button_style:hover {
     background-color: #0800ff;
     border: 4px white dashed;
     cursor: pointer;
 }
 
-#hero button
-{
+#hero button {
     margin-top: 35px;
 }
 
-#action
-{
+#action {
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-#action_text h3
-{
+#action_text h3 {
     font-size: 42px;
 }
 
-#action_text p
-{
+#action_text p {
     font-size: 24px;
     font-weight: 400;
     color: rgb(109, 109, 109);
     line-height: 30px;
 }
 
-#action_text button
-{
+#action_text button {
     margin-top: 15px;
 }
 
-.button_style_for_action
-{
+.button_style_for_action {
     background-color: #4E47FF;
     width: 185px;
     height: 55px;
@@ -113,28 +99,24 @@ nav h2
     font-weight: bold;
 }
 
-.button_style_for_action:hover
-{
+.button_style_for_action:hover {
     background-color: #0800ff;
     border: 4px white dashed;
     cursor: pointer;
 }
 
-#action
-{
+#action {
     margin-top: 200px;
     align-items: center;
 }
 
-#action img
-{
+#action img {
     border-radius: 48px;
     width: 403px;
     height: 328px;
 }
 
-#productive_users_section
-{
+#productive_users_section {
     display: block;
     text-align: center;
     margin-top: 250px;
@@ -145,14 +127,12 @@ nav h2
     border-radius: 40px;
 }
 
-#productive_users_section h3
-{
+#productive_users_section h3 {
     font-size: 45px;
     font-weight: 700;
 }
 
-#users_information
-{
+#users_information {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -160,77 +140,72 @@ nav h2
     gap: 250px;
 }
 
-#users_information h2
-{
+#users_information h2 {
     font-size: 80px;
     font-family: 'Franklin Gothic Medium';
     color: #4E47FF;
 }
 
-#users_information p
-{
+#users_information p {
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
 }
 
-#feedback_section
-{
+#feedback_section {
     margin-top: 250px;
     text-align: center;
 }
-#feedback_section h2
-{
+
+#feedback_section h2 {
     font-size: 42px;
     font-weight: 700;
 }
-#all_cards
-{
+
+#all_cards {
     display: flex;
     justify-content: space-around;
     margin: 80px 80px;
     text-align: left;
 }
-#all_cards h4
-{
+
+#all_cards h4 {
     font-size: 20px;
 }
-#all_cards p
-{
+
+#all_cards p {
     font-size: 15px;
     font-family: 'Calibri';
     font-weight: 400;
 }
-#picture_and_info
-{
+
+#picture_and_info {
     display: flex;
     margin-top: 20px;
 }
 
-#picture_and_info img
-{
+#picture_and_info img {
     border-radius: 50%;
 }
-#info
-{
+
+#info {
     margin-left: 20px;
 }
-#info p
-{
-    font-size: 15px;
-}
-#info h6
-{
+
+#info p {
     font-size: 15px;
 }
 
-.card_style
-{
+#info h6 {
+    font-size: 15px;
+}
+
+.card_style {
     background-color: white;
     border-radius: 14px;
     padding: 50px;
 }
-#focus_section
-{
+
+#focus_section {
     display: block;
     justify-content: center;
     text-align: center;
@@ -239,20 +214,19 @@ nav h2
     padding: 71px 150px;
     border-radius: 15px;
 }
-#focus_section h2
-{
+
+#focus_section h2 {
     font-size: 50px;
     font-weight: 700;
 }
-#focus_section p
-{
+
+#focus_section p {
     font-size: 20px;
     padding-top: 20px;
     color: #00000076;
 }
 
-.button_style_for_focus_section
-{
+.button_style_for_focus_section {
     background-color: #4E47FF;
     width: 180px;
     height: 52px;
@@ -263,78 +237,95 @@ nav h2
     font-weight: bold;
     margin-top: 10px;
 }
-.button_style_for_focus_section:hover
-{
+
+.button_style_for_focus_section:hover {
     background-color: #0800ff;
     border: 4px white dashed;
     cursor: pointer;
 }
 
-#focus_section img
-{
+#focus_section img {
     width: 840px;
     height: 365px;
     margin-top: 50px;
     border-radius: 48px;
 }
 
-#form_section
-{
+#form_section {
     display: flex;
     justify-content: space-between;
     gap: 150px;
     margin: 80px 250px;
     align-items: center;
 }
-#form_section_text 
-{
-    font-size: 55px;
+
+#form_section_text {
+    font-size: 52px;
 }
 
-#form
-{
+#form {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#form input
-{
+#form input {
     width: 450px;
     height: 45px;
     border-radius: 8px;
     border: none;
 }
 
-#form button
-{
+#form button {
     margin-top: 25px;
-    width:400px;
+    width: 450px;
     font-size: 20px;
 }
 
-textarea
-{
+textarea {
     border-radius: 8px;
     border: none;
 }
-footer
-{
+
+footer {
     display: block;
     text-align: center;
     margin-top: 200px;
     background-color: white;
+    padding: 100px 0px;
 }
 
-footer h2
-{
+footer h2 {
     color: #4E47FF;
     font-size: 100px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
-footer p
-{
+footer p {
     color: #8987A1;
     font-weight: 400;
+    font-size: 18px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: Arial;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #4E47FF;
 }
