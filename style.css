@@ -277,3 +277,44 @@ nav h2
     margin-top: 50px;
     border-radius: 48px;
 }
+
+#form_section
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 80px 250px;
+    align-items: center;
+}
+#form_section_text 
+{
+    font-size: 55px;
+}
+
+#form
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#form input
+{
+    width: 450px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+}
+
+#form button
+{
+    margin-top: 25px;
+    width:400px;
+    font-size: 20px;
+}
+
+textarea
+{
+    border-radius: 8px;
+    border: none;
+}
