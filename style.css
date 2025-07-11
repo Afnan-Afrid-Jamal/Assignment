@@ -229,3 +229,51 @@ nav h2
     border-radius: 14px;
     padding: 50px;
 }
+#focus_section
+{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 250px 150px;
+    background-color: white;
+    padding: 71px 150px;
+    border-radius: 15px;
+}
+#focus_section h2
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+#focus_section p
+{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #00000076;
+}
+
+.button_style_for_focus_section
+{
+    background-color: #4E47FF;
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.button_style_for_focus_section:hover
+{
+    background-color: #0800ff;
+    border: 4px white dashed;
+    cursor: pointer;
+}
+
+#focus_section img
+{
+    width: 840px;
+    height: 365px;
+    margin-top: 50px;
+    border-radius: 48px;
+}
